@@ -201,7 +201,7 @@ header .social li:first-child{
 	position: relative;
 	width: 100%;
 	height: 560px;
-	background: url('../img/hero_opt.jpg') no-repeat fixed center center;
+	background: url('../img/hero_opt_l.jpg') no-repeat fixed center center;
 	background-size: cover;
 }
 
@@ -793,6 +793,10 @@ footer .copyright a{
 		display: block;
 		width: 100%;
 	}
+
+	.hero{
+		background: url('../img/hero_opt_s.jpg') no-repeat fixed center center;
+	}
 }
 
 @media (max-width: 767px) {
@@ -854,6 +858,10 @@ footer .copyright a{
 
 
 	/*		Hero section 		*/
+	.hero{
+		background: url('../img/hero_opt_s.jpg') no-repeat fixed center center;
+	}
+
 	.hero .caption{
 		margin-left: 0;
 	}
